@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!-- Rules to determine if a Mediacore application tags gamma to QT movies or uses tagged gamma from QT movies -->
+<!-- you can have multiple entries per codec fourcc and vendor to speicify that an older codec was native and now big for example -->
+<!-- xml entry of QTCodec  has following attributes -->
+<!-- codec='4cc '  four cc of codec -->
+<!-- vendor='4cc '  four cc of vendor -->
+<!-- platform='mactel' or platform='windows' or platform='ppc'-->
+<!-- direction='encode' or direction='decode' -->
+<!-- versionlow='0x0' the lowest version of this codec that has this status -->
+<!-- versionhigh='0x0' or versionhigh='*' the highest version of this codec that has this status, * means all versions above low -->
+<!-- gammatag='true' means to tag output or read gamma status='false' means don't (default) -->
+<!-- cvbuffertag='2.2' the value to tag to the cvbuffer -->
+<!-- deepdecodefourcc, 0 is none otherwise v210, r4fl etc -->
+<!-- decodefourcc, 0 is default otherwise yuvs or 2vuy -->
+<MediaCoreQTCodecRules version='42'>
+	<QTCodec codec='apch' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy'/>
+	<QTCodec codec='apch' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apch' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apch' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcs' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcs' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcs' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcs' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apco' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apco' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apco' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apco' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcn' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcn' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcn' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='apcn' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ap4h' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='ap4h' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='ap4h' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='ap4h' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='jpeg' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='jpeg' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='true' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='jpeg' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='jpeg' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='true' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='avc1' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='avc1' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='avc1' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='avc1' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='Shr1' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='Shr1' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='Shr2' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr2' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr3' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr3' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr4' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='argb' />
+	<QTCodec codec='Shr4' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='argb' />
+	<QTCodec codec='Shr5' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr5' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr6' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr6' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='Shr7' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='Shr7' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='Mczm' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.5' decodefourcc='b64a' />
+	<QTCodec codec='Mczm' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='b64a' />
+	<QTCodec codec='Mczm' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.5' decodefourcc='b64a' />
+	<QTCodec codec='Mczm' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='b64a' />
+	<QTCodec codec='AVdn' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='AVdn' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='AVdn' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='AVdn' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10k' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10k' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10k' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10k' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10g' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10g' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10g' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='R10g' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='Ajav' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='Ajav' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='Ajav' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='Ajav' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='BMAG' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='BMAG' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='BMAG' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='2Vuy' vendor='BMAG' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='r210' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='r210' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='true' cvbuffertag='2.2' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='r210' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='r210' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='true' cvbuffertag='2.2' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='xd59' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd59' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5a' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5a' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5b' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5b' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5c' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5c' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5d' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5d' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5e' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5e' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5f' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xd5f' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv1' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv1' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv2' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv2' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv3' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv3' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv4' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv4' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv5' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv5' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv6' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv6' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv7' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv7' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv8' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv8' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv9' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdv9' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdva' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdva' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvb' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvb' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvc' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvc' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvd' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvd' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdve' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdve' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvf' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='xdvf' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='mp4v' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='mp4v' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='mp4v' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='mp4v' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' decodefourcc='2vuy' />
+	<QTCodec codec='CFHD' vendor='****' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='CFHD' vendor='****' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='CFHD' vendor='****' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='CFHD' vendor='****' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='0' deepdecodefourcc='b64a' decodefourcc='argb' />
+	<QTCodec codec='xd5b' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5d' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5e' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5f' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5c' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd59' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5a' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv3' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv2' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv6' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv7' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv8' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv3' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv2' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv6' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv7' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv8' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='dv5n' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='dv5p' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx3n' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx3p' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx4n' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx4p' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx5n' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx5p' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdh2' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdhd' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='ai16' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai12' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1p' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1q' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai15' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai13' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai56' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai52' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5p' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5q' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai55' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai53' vendor='CBNx' platform='windows' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai16' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai12' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1p' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1q' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai15' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai13' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai56' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai52' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5p' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5q' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai55' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai53' vendor='CBNx' platform='windows' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='xd5b' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5d' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5e' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5f' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5c' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd59' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xd5a' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv3' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv2' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv6' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv7' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='hdv8' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv3' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv2' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv6' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv7' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdv8' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='dv5n' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='dv5p' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx3n' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx3p' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx4n' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx4p' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx5n' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='mx5p' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdh2' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='xdhd' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2' decodefourcc='2vuy' />
+	<QTCodec codec='ai16' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai12' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1p' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1q' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai15' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai13' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai56' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai52' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5p' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5q' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai55' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai53' vendor='CBNx' platform='mactel' direction='decode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai16' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai12' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1p' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai1q' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai15' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai13' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai56' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai52' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5p' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai5q' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai55' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+	<QTCodec codec='ai53' vendor='CBNx' platform='mactel' direction='encode' versionlow='0x00000' versionhigh='*' gammatag='false' cvbuffertag='2.2'  deepdecodefourcc='v210' decodefourcc='2vuy' />
+</MediaCoreQTCodecRules>

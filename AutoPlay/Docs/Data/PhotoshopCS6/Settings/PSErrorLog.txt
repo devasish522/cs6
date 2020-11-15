@@ -1,0 +1,3 @@
+2019:11:21 19:04:59 : ..\..\sources\UImageState.cpp : 605 : REQUIRE failed
+2020:02:19 22:34:57 : ..\..\sources\UTextFace.cpp : 3497 : REQUIRE failed
+2020:03:24 23:20:53 : ..\..\sources\USheetList.cpp : 237 : REQUIRE failed

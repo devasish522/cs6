@@ -1,0 +1,8 @@
+AMEWrapper	1	5
+AppDirs	1	5
+AppVers	1	5
+AudioDevice	1	5
+DynamicLink	1	5
+GPUManager	1	5
+MPEGWriter	1	5
+MixHashGuid	1	5

@@ -1,0 +1,369 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop\60.0]
+"FreeBeforeSlopAdjust"=dword:00380000
+"FreeSpace"=dword:001e84cc
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop\60.0\ApplicationPath]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop\60.0\PluginPath]
+
+[HKEY_CURRENT_USER\Software\Adobe]
+
+[HKEY_CURRENT_USER\Software\Adobe\45D58984A128]
+@=hex:b6,16,96,75,eb,24,95,01,79,0b,80,7c,f3,b0,55,09,3e,e4,ca,57,43,6b,ee,71,\
+  eb,23,df,76,52,9c,d0,c1,d4,0b,bd,aa,35,79,07,bb,59,30,43,03,19,9b,ce,42,d1,\
+  08,91,d4,e9,ac,f5,6d,03,03,97,b2,16,b5,fc,90,a7,09,d2,3b,39,68,cc,97,21,e3,\
+  90,6a,c9,24,14,d0,1d,3a,4e,6f,9c,2f,0a,9d,b3,b7,c3,88,44,ed,ec,45,39,4b,45,\
+  97,5f,e3,85,dc,ef,da,3a,d1,07,3d,30,bc
+
+[HKEY_CURRENT_USER\Software\Adobe\5ECBFE188F62]
+@="8226896C58DFA484DA8293DB1E9C3D7559AD80D0"
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles]
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage]
+"GUID"="a8a86e4f-a62e-466a-b421-265b3007f237"
+"Agent"="G:\\Softwares\\Adobe CS6 Master Collection\\Photoshop CS6 Portable\\AutoPlay\\Docs\\App\\PhotoshopCS6\\"
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6]
+"Date"="2020-07-22T15:05:42Z"
+"OptIn"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6Headlights]
+"RemindMeLaterDate"=dword:5f3d3fc6
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6Headlights\Adobe Photoshop CS6]
+"Prerelease"=dword:00000000
+"Build"="13.0 20120315.r.428 2012/03/15:21:00:00"
+"LaunchCounter"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6_CS6_Adobe Photoshop CS6_13.0]
+"OptIn"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Adobe\IAC]
+"UserID"="32F164AA7A686DBFFFE8BD126E0F3B"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-21T15:30:46.1911Z]
+@="F:\\cs6 deva\\prasanth psd\\day4.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-21T15:52:46.9832Z]
+@="F:\\cs6 deva\\bg images\\frames\\dev.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-21T16:01:06.1773Z]
+@="F:\\cs6 deva\\bg images\\2012073.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-21T16:01:24.674Z]
+@="F:\\cs6 deva\\bg images\\ala-vaikuntapuramlo-live-updates-01-cfa.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-21T16:02:37.6925Z]
+@="F:\\cs6 deva\\bg images\\-11550902985tfeqcqsb11.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-22T15:21:38.7910Z]
+@="F:\\cs6 deva\\prasanth psd\\teddiwear macking1.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-07-22T15:22:02.8201Z]
+@="F:\\cs6 deva\\prasanth psd\\IMG_20191008_154828.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-14T14:38:29.7720Z]
+@="F:\\cs6 deva\\prasanth psd\\cutting.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-29T14:47:14.4960Z]
+@="F:\\cs6 deva\\prasanth psd\\day4.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-29T15:51:48.3552Z]
+@="F:\\cs6 deva\\business work\\56fe98641f420_thumb900.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-30T13:07:14.5280Z]
+@="F:\\cs6 deva\\business work\\images - Copy.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-30T13:14:33.6071Z]
+@="F:\\cs6 deva\\business work\\images.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-30T13:32:33.94Z]
+@="F:\\cs6 deva\\business work\\56e477533e5a9a1e2b8c73c983c7642f.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-30T13:33:50.8976Z]
+@="F:\\cs6 deva\\business work\\3.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-30T13:58:01.6167Z]
+@="F:\\cs6 deva\\business work\\12b9f6c7963992316126a1df5319f7fd.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-30T13:58:01.9748Z]
+@="F:\\cs6 deva\\business work\\111.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T02:23:02.2450Z]
+@="F:\\cs6 deva\\day 1.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T02:23:09.4761Z]
+@="F:\\cs6 deva\\day 2 wallpaer.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T02:46:33.5303Z]
+@="F:\\cs6 deva\\business work\\european_fashion_pattern_vector_286573.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T03:30:47.4555Z]
+@="F:\\cs6 deva\\business work\\5f87f53898256d24eeb8b583014f48a2.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T03:30:47.774Z]
+@="F:\\cs6 deva\\business work\\3a816a4a1918c6bf59c9e1e9761e6e98.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T03:32:35.6096Z]
+@="F:\\cs6 deva\\business work\\11.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-08-31T03:32:35.8977Z]
+@="F:\\cs6 deva\\business work\\037f403addfb3fb22a9f27adccbbc85f.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-01T02:47:04.5330Z]
+@="F:\\cs6 deva\\business work\\2af606d01c77581ef66253a959de2d6c.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-03T03:12:21.2654Z]
+@="F:\\cs6 deva\\business work\\unnamed.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-03T03:12:21.853Z]
+@="F:\\cs6 deva\\business work\\images (2).jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-04T02:35:42.8935Z]
+@="F:\\cs6 deva\\business work\\mens-casual-denim-jeans-1552036543-4776809.jpeg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-04T02:35:43.6916Z]
+@="F:\\cs6 deva\\business work\\xxl-flower-print-mr-kameej-original-imafz4gaxfyb7hc4.jpeg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:20.9886Z]
+@="F:\\cs6 deva\\business work\\1 - Copy - Copy.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:21.2587Z]
+@="F:\\cs6 deva\\business work\\1 - Copy (2).psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:21.8928Z]
+@="F:\\cs6 deva\\business work\\1 - Copy.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:22.4899Z]
+@="F:\\cs6 deva\\business work\\1.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:23.16510Z]
+@="F:\\cs6 deva\\business work\\2af606d01c77581ef66253a959de2d6c - Copy - Copy.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:23.76711Z]
+@="F:\\cs6 deva\\business work\\2af606d01c77581ef66253a959de2d6c - Copy (2).psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:24.23012Z]
+@="F:\\cs6 deva\\business work\\2af606d01c77581ef66253a959de2d6c - Copy.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:24.68113Z]
+@="F:\\cs6 deva\\business work\\2af606d01c77581ef66253a959de2d6c.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:25.58615Z]
+@="F:\\cs6 deva\\business work\\5c36bc72025a9a6d18991a919e740de8.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:25.7514Z]
+@="F:\\cs6 deva\\business work\\5c36bc72025a9a6d18991a919e740de8 - Copy.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:26.11216Z]
+@="F:\\cs6 deva\\business work\\dev.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:26.94217Z]
+@="F:\\cs6 deva\\business work\\edit 00c986c - Copy.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:27.72118Z]
+@="F:\\cs6 deva\\business work\\edit 00c986c.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:28.41419Z]
+@="F:\\cs6 deva\\business work\\pants1.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T10:42:29.27320Z]
+@="F:\\cs6 deva\\business work\\Photo-30-05-2019-11-09-47.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T11:09:29.4830Z]
+@="C:\\Users\\Mittu\\Downloads\\Eagle Logo PNG - Free Download.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T11:12:04.261Z]
+@="C:\\Users\\Mittu\\Downloads\\Metal eagle png image logos #4033 - Free Transparent PNG Logos.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T11:16:21.862Z]
+@="F:\\cs6 deva\\business work\\ab3b0abe54f6f906546da8c19db07539.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T14:34:42.1980Z]
+@="F:\\cs6 deva\\business work\\logo1.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T14:42:08.6361Z]
+@="F:\\cs6 deva\\business work\\166995.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T14:59:35.1782Z]
+@="F:\\cs6 deva\\business work\\download.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T15:01:31.2903Z]
+@="F:\\cs6 deva\\business work\\letter-f-inside-shield-with-wings-4944ld.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T15:24:43.3024Z]
+@="F:\\cs6 deva\\business work\\786ed3b2707a5389ed4829918917d905.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-05T16:13:25.3051Z]
+@="F:\\cs6 deva\\business work\\Untitled11111-2.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-09-12T08:33:24.2150Z]
+@="F:\\cs6 deva\\business work\\logo2.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T06:16:51.5330Z]
+@="F:\\cs6 deva\\business work\\exclusive.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T06:18:06.6343Z]
+@="F:\\cs6 deva\\business work\\a36cea18ee1c26b70a4d4c56cf206b6b.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T06:18:06.812Z]
+@="F:\\cs6 deva\\business work\\713975649105b8c6235750d4c0715603.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T06:38:02.9547Z]
+@="F:\\cs6 deva\\business work\\0c2cf6682e3399baf27013a857c27a48.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T08:39:29.6568Z]
+@="F:\\cs6 deva\\business work\\5c36bc72025a9a6d18991a919e740de8.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T12:43:27.9950Z]
+@="F:\\cs6 deva\\business work\\c2e2d6dc0c85b454a5075727d57f49ce.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T12:50:30.8762Z]
+@="F:\\cs6 deva\\business work\\e192ea3ddb4a829206886a2d972e189a.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-06T12:50:34.7733Z]
+@="F:\\cs6 deva\\business work\\mens-dress-shirt-and-pants.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T06:09:59.5221Z]
+@="F:\\cs6 deva\\business work\\depositphotos_21461543-stock-photo-man-with-many-bags-from.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:08:14.2783Z]
+@="F:\\cs6 deva\\business work\\4ec67c422838d2fc717ae2b5c2cecd22.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:49:19.1476Z]
+@="F:\\cs6 deva\\business work\\POSTAR 1.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:49:20.1287Z]
+@="F:\\cs6 deva\\business work\\postar logo.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:49:21.5838Z]
+@="F:\\cs6 deva\\business work\\postar2.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:53:14.70910Z]
+@="F:\\cs6 deva\\business work\\818ea3a94d88792945350eebfa8c1dfa.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:56:21.17112Z]
+@="F:\\cs6 deva\\business work\\b11799cd52b5a7241c83ffba22098624.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-07T07:56:22.1513Z]
+@="F:\\cs6 deva\\business work\\c19ddabcb3ee045205afc0665fa5c5b2.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T03:02:39.8641Z]
+@="F:\\cs6 deva\\business work\\58e09efa3c292d45d85157b8c2043226.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T03:02:40.9663Z]
+@="F:\\cs6 deva\\business work\\Photo-30-05-2019-11-09-47.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T03:30:11.2274Z]
+@="F:\\cs6 deva\\business work\\61eb8b93cc2cd0fedfe7bc48d4a6d2fb.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T03:30:11.7175Z]
+@="F:\\cs6 deva\\business work\\81a0b74ab499b646760898d82082cf78.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T04:04:28.9937Z]
+@="F:\\cs6 deva\\business work\\3d22e29cddff970f5be4487adb181ee2.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T04:04:29.6208Z]
+@="F:\\cs6 deva\\business work\\211e9b6125946e9549b3650daa99c539.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T04:04:31.1410Z]
+@="F:\\cs6 deva\\business work\\987225c3e9a3d64738a9e825ee86a02a.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T04:04:31.63911Z]
+@="F:\\cs6 deva\\business work\\f9f70b2365d8ab2a9a1368467119776b.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T04:52:20.97312Z]
+@="F:\\cs6 deva\\business work\\a608045cec1281d062e1929a0788d527.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T05:00:11.32014Z]
+@="F:\\cs6 deva\\business work\\1559b26d1c035d91ecb850e8318dfc54.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T05:04:26.80015Z]
+@="F:\\cs6 deva\\business work\\978956b67e8bf9a1e5b292a66d3af638.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T06:36:40.4690Z]
+@="F:\\cs6 deva\\business work\\1eb0290d0618bfd01774858318761434.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T06:58:52.4281Z]
+@="F:\\cs6 deva\\business work\\599ca09d2fa1ab58f9e832c73e4b7c08.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T06:58:52.9922Z]
+@="F:\\cs6 deva\\business work\\910ed684266adc503d3513878f2e82e8.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T06:58:53.4953Z]
+@="F:\\cs6 deva\\business work\\929ad87785e96d2527f9065d16f62a56.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T07:09:12.7276Z]
+@="F:\\cs6 deva\\business work\\postar3.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T07:33:21.8668Z]
+@="F:\\cs6 deva\\business work\\b51e040ac1cf4983c946f98eb070db98.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T07:58:34.1569Z]
+@="F:\\cs6 deva\\business work\\5005c802b22a0520e45ecc184eecb92b.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T08:01:03.47910Z]
+@="F:\\cs6 deva\\business work\\fcloub\\Untitled-1.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T08:13:52.17911Z]
+@="F:\\cs6 deva\\business work\\741809716ea15e4269d893855ac931a4.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T08:49:46.78812Z]
+@="F:\\cs6 deva\\business work\\7b0987e64581346d40be6efe7351eef7.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T08:57:06.11113Z]
+@="F:\\cs6 deva\\business work\\c942c91794311a8d755ba5c08974de12.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T08:57:06.92814Z]
+@="F:\\cs6 deva\\business work\\fa97694a45868fecf68141a8e88c1fe2.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:13:04.94115Z]
+@="F:\\cs6 deva\\business work\\77.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:13:05.80116Z]
+@="F:\\cs6 deva\\business work\\dae3e3c1a0a08c48af1647ad49a10b01.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:37:10.38517Z]
+@="F:\\cs6 deva\\business work\\5813ec2890c237301cd5979e07b0ac30.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:37:10.80918Z]
+@="F:\\cs6 deva\\business work\\8387973c8b6847a3584e056ed0491355.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:37:11.30719Z]
+@="F:\\cs6 deva\\business work\\d806d6db457ba2aa93c49ad9b76a79ff.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:43:08.64920Z]
+@="F:\\cs6 deva\\business work\\83fa3c9029f6548bae0f825406c33ab9.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:44:53.35021Z]
+@="F:\\cs6 deva\\business work\\p3.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2020-10-08T09:45:15.38722Z]
+@="F:\\cs6 deva\\business work\\postar4.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\Photoshop]
+
+[HKEY_CURRENT_USER\Software\Adobe\Photoshop\60.0]
+"AppWindowPosition"="[0,0,1366,768]"
+"uiLanguageKey CS6"="en_US"
+"oldPaletteFontTypeKey CS6"=dword:00000000
+"MemoryUsage"=dword:0000003c
+"ShowStatusWindow"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Adobe\Photoshop\60.0\VisitedDirs]
+"STARTUPIMAGEDIRECTORY"="F:\\cs6 deva\\business work\\"
